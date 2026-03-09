@@ -7,7 +7,5 @@ Technologies
 	•	Node.js
 	•	OpenAI API
 
-Note
-
-This project uses a local Node.js backend to handle API requests.
-For security reasons, the OpenAI API key is stored in environment variables and is not included in this repository.
+Note: This repository contains only the frontend.
+The Node.js backend handling the OpenAI API requests is kept local to protect the API key.
