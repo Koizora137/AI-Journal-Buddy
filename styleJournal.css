@@ -1,0 +1,59 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url(1600w-U93tpA4NMDA.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(194, 208, 237);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  textarea {
+    width: 90%;
+    height: 200px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
+  #response {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #111827;
+    background-color:white;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 80%;
+    text-align: left;
+  }

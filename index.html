@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!--Tells the browser this is an HTML5 document-->
+<html lang="en"> <!--Root of the page; sets the language to English-->
+<head> <!-- Contains meta information, title, links to stylesheets-->
+  <meta charset="UTF-8"> <!--Handles all character types correctly-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--<meta>: Tells the browser how to behave.
+	•	name="viewport": Targets the viewport, which is the visible area of a web page on a screen.
+	•	content="width=device-width": Sets the page width to match the screen size (e.g. narrow on a phone, wide on a laptop).
+	•	initial-scale=1.0: Sets the zoom level when the page first loads (1.0 = 100%).-->
+  <title>AI Journal Buddy</title> <!--the text shown on the browser tab-->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styleJournal.css"> <!-- Optional: link to your CSS -->
+</head>
+<body> <!--Where all the visible content goes-->
+<div class="container">
+  <h1>My AI Journal Buddy! ;)</h1>
+  <textarea id="entry" placeholder="How do you feel today?..." rows="10" cols="50"></textarea>
+  <br><br>
+
+  <button id="submitBtn" onclick="sendToAI()">Get Advice</button>
+  <br><br>
+
+  <div id="response" style="white-space: pre-wrap;"></div>
+  <br><br>
+
+  <button onclick="clearEntries()" style="margin-top: 20px; background-color: #ff6b6b;">🗑️ Clear All Entries</button>
+
+  <h3>📜 Past Entries</h3>
+  <ul id="entryList"></ul> 
+
+  <script src="script.js"></script> <!-- Optional: link to your JavaScript -->
+</div>
+</body>
+</html>
