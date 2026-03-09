@@ -9,3 +9,8 @@ Technologies
 
 Note: This repository contains only the frontend.
 The Node.js backend handling the OpenAI API requests is kept local to protect the API key.
+
+![App Screenshot](AIJournal-app.png)
+![App Screenshot](AIJournal-pastEntries.png)
+![App Screenshot](JournalApp.Working.png)
+![App Screenshot](Journal-app.png)
